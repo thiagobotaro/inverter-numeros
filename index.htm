@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Exercícios</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>Insira os números</h1>
+        <form action="">
+            <label> Número:  
+                <input type="number" id="numero1" min="1">
+            </label>
+            <button onclick="adicionar()" type="button">Adicionar</button>
+        </form>   
+        <h1>Resultado</h1>
+        <button onclick="inverter()" type="button">Inverter</button>
+        <h3 id="resultado">Numeros invertidos</h3>
+        <br>
+        <h6>Crie um programa com uma função que receba três números como argumentos <br>
+             e os retorne em ordem crescente. Exiba os números ordenados.</h6>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
